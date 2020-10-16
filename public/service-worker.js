@@ -1,3 +1,6 @@
+const CACHE_NAME = "static-cache-v1";
+const DATA_CACHE_NAME = "data-cache-v1";
+
 const FILES_TO_CACHE = [
     "/",
     "/index.html",
@@ -10,9 +13,7 @@ const FILES_TO_CACHE = [
     "https://cdn.jsdelivr.net/npm/chart.js@2.8.0"
   ];
   
-  const CACHE_NAME = "static-cache-v1";
-  const DATA_CACHE_NAME = "data-cache-v1";
-  
+ 
   self.addEventListener("install", (evt) => {
     evt.waitUntil(
       caches.open(CACHE_NAME).then((cache) => {
