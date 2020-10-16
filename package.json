@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js"
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/coding-boot-camp/unit18hw/issues"
   },
@@ -25,7 +25,6 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3",
     "heroku": "^7.43.2",
     "heroku-cli": "^7.0.9"
   }
